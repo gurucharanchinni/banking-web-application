@@ -17,7 +17,7 @@ The project follows the **Model-View-Controller (MVC)** design pattern:
 - **Model (DAO Package):**  
   Java classes to interact with the database using JDBC.
 
-- **View (JSP Pages):**  
+- **View (WebApp Package):**  
   JSP and JSTL used for rendering UI and displaying responses.
 
 - **Controller (Servlets Package):**  
