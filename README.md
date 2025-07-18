@@ -21,15 +21,6 @@ A simple Java-based banking application built using <b>MVC Architecture</b>, <b>
 
 - **Logout with Session Invalidation**: Users can safely log out of their account, which removes their session data. After logout, all secure pages are blocked until the user logs in again.
 
-<h1 align="center">Tech Stack</h1>
-
-- **Java** (Servlets, Filters, JDBC)
-- **JSP** (for views)
-- **JSTL** (for clean dynamic content rendering)
-- **PostgreSQL** (real-time transaction storage)
-- **SHA-256** (for secure encoding of MPIN and UPI PIN)
-- **Session Management** (`HttpSession`)
-
 <h1 align="center">MVC Architecture</h1>
 
 The project follows the **Model-View-Controller (MVC)** design pattern:
@@ -42,3 +33,12 @@ The project follows the **Model-View-Controller (MVC)** design pattern:
 
 - **Controller (Servlets Package):**  
   Handles routing, business logic, and interaction between model and view.
+
+<h1 align="center">Tech Stack</h1>
+
+- **Java** (Servlets, Filters, JDBC)
+- **JSP** (for views)
+- **JSTL** (for clean dynamic content rendering)
+- **PostgreSQL** (real-time transaction storage)
+- **SHA-256** (for secure encoding of MPIN and UPI PIN)
+- **Session Management** (`HttpSession`)
