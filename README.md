@@ -9,3 +9,16 @@ A simple Java-based banking application built using <b>MVC Architecture</b>, <b>
 - **PostgreSQL** (real-time transaction storage)
 - **SHA-256** (for secure encoding of MPIN and UPI PIN)
 - **Session Management** (`HttpSession`)
+
+<h1 align="center">MVC Architecture</h1>
+
+The project follows the **Model-View-Controller (MVC)** design pattern:
+
+- **Model (DAO Package):**  
+  Java classes to interact with the database using JDBC.
+
+- **View (JSP Pages):**  
+  JSP and JSTL used for rendering UI and displaying responses.
+
+- **Controller (Servlets Package):**  
+  Handles routing, business logic, and interaction between model and view.
