@@ -1,5 +1,5 @@
 <h1 align="center">Banking Project</h1>
-A simple Java-based banking application built using <b>MVC Architecture</b>, <b>Servlets</b>, <b>JSP</b>, <b>JSTL</b>, and <b>PostgreSQL</b>. The application enables users to create and manage their bank accounts securely with features like login authentication, money transfers, transaction history, and session-based access control.
+A simple Java-based banking application built using <b>MVC Architecture</b>, <b>Servlets</b>, <b>JSP</b>, and <b>PostgreSQL</b>. The application enables users to create and manage their bank accounts securely with features like login authentication, money transfers, transaction history, and session-based access control.
 
 <h1 align="center">Features</h1>
 
@@ -37,8 +37,7 @@ The project follows the **Model-View-Controller (MVC)** design pattern:
 <h1 align="center">Tech Stack</h1>
 
 - **Java** (Servlets, Filters, JDBC)
-- **JSP** (for views)
-- **JSTL** (for clean dynamic content rendering)
-- **PostgreSQL** (real-time transaction storage)
-- **SHA-256** (for secure encoding of MPIN and UPI PIN)
+- **JSP** (Views)
+- **PostgreSQL** (Real-Time Transaction Storage)
+- **SHA-256** (Secure encoding of MPIN and UPI PIN)
 - **Session Management** (`HttpSession`)
