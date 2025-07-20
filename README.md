@@ -1,7 +1,7 @@
-<h1 align="center">Banking Project</h1>
+<h1>Banking Project</h1>
 A simple Java-based banking application built using <b>MVC Architecture</b>, <b>Servlets</b>, <b>JSP</b>, and <b>PostgreSQL</b>. The application enables users to create and manage their bank accounts securely with features like login authentication, money transfers, transaction history, and session-based access control.
 
-<h1 align="center">Features</h1>
+<h1>Features</h1>
 
 - **User Registration**: Allows users to create a bank account by entering their personal details along with a unique MPIN and UPI ID. The MPIN and UPI ID are securely encoded using SHA-256 before storing in the database.
 
@@ -21,7 +21,7 @@ A simple Java-based banking application built using <b>MVC Architecture</b>, <b>
 
 - **Logout with Session Invalidation**: Users can safely log out of their account, which removes their session data. After logout, all secure pages are blocked until the user logs in again.
 
-<h1 align="center">MVC Architecture</h1>
+<h1>MVC Architecture</h1>
 
 The project follows the **Model-View-Controller (MVC)** design pattern:
 
@@ -34,7 +34,7 @@ The project follows the **Model-View-Controller (MVC)** design pattern:
 - **Controller (Servlets Package):**  
   Handles routing, business logic, and interaction between model and view.
 
-<h1 align="center">Tech Stack</h1>
+<h1>Tech Stack</h1>
 
 - **Java** (Servlets, Filters, JDBC)
 - **JSP** (Views)
