@@ -1,4 +1,4 @@
-<h1>Banking Project</h1>
+<h1>Banking Web Application</h1>
 A simple Java-based banking application built using <b>MVC Architecture</b>, <b>Servlets</b>, <b>JSP</b>, and <b>PostgreSQL</b>. The application enables users to create and manage their bank accounts securely with features like login authentication, money transfers, transaction history, and session-based access control.
 
 <h1>Features</h1>
