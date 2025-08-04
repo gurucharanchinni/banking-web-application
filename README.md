@@ -3,7 +3,7 @@ A simple Java-based banking application built using <b>MVC Architecture</b>, <b>
 
 <h1>Features</h1>
 
-- **User Registration**: Allows users to create a bank account by entering their personal details along with a unique MPIN and UPI ID. The MPIN and UPI ID are securely encoded using SHA-256 before storing in the database.
+- **User Registration**: Allows users to create a bank account by entering their personal details along with a unique MPIN and UPI ID. The MPIN and UPI ID are securely encoded using BCrypt before storing in the database.
 
 - **Login Authentication**: Using Mobile Number and MPIN. Users can log in using their registered mobile number and MPIN. Authentication is handled securely by comparing encoded values stored in the database.
 
@@ -39,5 +39,5 @@ The project follows the **Model-View-Controller (MVC)** design pattern:
 - **Java** (Servlets, Filters, JDBC)
 - **JSP** (Views)
 - **PostgreSQL** (Real-Time Transaction Storage)
-- **SHA-256** (Secure encoding of MPIN and UPI PIN)
+- **BCrypt** (Secure encoding of MPIN and UPI PIN)
 - **Session Management** (`HttpSession`)
